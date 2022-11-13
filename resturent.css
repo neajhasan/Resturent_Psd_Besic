@@ -1,0 +1,387 @@
+/*Common Css start*/
+*{
+    margin: 0;
+    padding: 0;
+} 
+ul, ol,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    font-family: 'Gentium Book Basic', serif;
+}
+a, a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+p{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+    color:#4C4C4C;
+    font-weight: 600;
+}
+b{
+    color: var(--headline);
+}
+img{
+     vertical-align: middle;
+}
+:root{
+    --first_text_color:#EEEEEE;
+    --second_text_color: #CC9900;
+    --footer_bg_color: #191919;
+    --hi_text:#A8A8A8;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Yeseva One', cursive;
+}
+.font{
+    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+/*Common Css end*/
+/* Back To Top start */
+.back_to_top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    background: rgb(49, 47, 47);
+    border: none;
+    z-index: 11;
+    
+}
+.back_to_top:hover{
+    background: #FF5200;
+}
+/* Back To Top End */
+/* Header part css start */
+.header_part{
+    background: url(asestan/img/slider_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--bs-gray-100);
+    font-size: 21px;
+}
+.navbar-nav :hover .nav-link.active, .navbar-nav .show>.nav-link{
+    color:rgb(248, 27, 27);
+    transition: 0.5s;
+    background: rgba(248, 246, 246, 0.635);
+
+}
+.navbar_icon i{
+    color: #f1ed1f;
+    font-size: 18px;
+    transition: 0.6s;
+}
+.navbar_icon i:hover{
+    color: var(--bs-red);
+    transform: rotate(500deg);
+}
+.header_con h1{
+    font-size: 80px;
+    
+}
+.header_button button{
+    padding: 8px 25px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.header_button button:hover{
+    background: aqua;
+    color: red;
+}
+.header_button :nth-child(1){
+    background: rgba(0,0,0,0.5);
+    color: white;
+    
+}
+.header_button :nth-child(2){
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    
+}
+/* Header Part Css End */
+/* service part Css Start */
+.service_part{
+    background: url(asestan/img/service_food_bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.srevice_con h2{
+    color: var(--second_text_color);
+}
+/* service part Css End */
+/* Vegetable Part Css Start */
+.vegetable_part{
+    background: url(asestan/img/vegetable_bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content_bg{
+    background: rgba(0,0,0,0.5);
+   
+}
+.vegetable_padding p{
+    color: rgb(229, 221, 221);
+}
+/* Vegetable Part Css End */
+/* Service Part Css Start */
+.service_part02{
+    background: url(asestan/img/service_bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.serv_con_head{
+    color: var(--second_text_color);
+}
+.serv_h5{
+    border-bottom: 1px solid #cc990081;
+    display: flex;
+    justify-content: space-between;
+    color: var(--second_text_color);
+}
+/* Service Part Css End */
+/* Chicker Part Css Start */
+.chicker_part{
+    background: url(asestan/img/chicken_bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chicken_bg{
+    background: rgba(0, 0, 0, 0.686);
+}
+.chicken_con_paddin p{
+    color: rgb(228, 221, 221);
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* Chicker Part Css End */
+/* CutFood Part Css Start */
+.cutfood_part{
+    background: url(asestan/img/cutfood_bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inpute_main p{
+    color: var(--second_text_color);
+}
+.inpute_main input{
+    width: 200px;
+    height: 40px;
+    padding: 0px 10px;
+    border-color: rgba(253, 250, 250, 0.839);
+    outline: none;
+}
+.cutfood_con_head h2{
+    color: var(--second_text_color);
+}
+.cut_food_button button{
+    padding: 8px 50px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    background: var(--second_text_color);
+    border: none;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.cut_food_button button:hover{
+    background: aqua;
+    color: red;
+}
+/* CutFood Part Css End */
+/* Footer Part Css Start */
+.footer_part{
+    background: var(--footer_bg_color);
+}
+.footer_padding p{
+    color: rgb(210, 197, 197);
+}
+.business_card i{
+    color: rgb(234, 225, 225);
+    transition: 0.8s;
+    font-size: 20px;
+}
+.business_card i:hover{
+    transform: rotate(500deg);
+    color: red;
+}
+/* Footer Part Css End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width:1800px){
+    .cutfood_inpute{
+        margin-left: 60px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+   
+        /* Cutput Part Start */
+        .cutfood_content_img img{
+            width: 220px;
+            margin-right: 20px;
+            margin-top: 50px;
+            display: block;
+        }
+        .cutfood_inpute{
+            margin-left: 20px;
+        }
+        /* Cutput Part End */
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+   /* Header part start */
+    .header_con h1{
+        font-size: 70px;
+    }
+    /* Header part End */
+    /* Cutput Part Start */
+    .cutfood_content_img img{
+        width: 160px;
+        margin-right: 40px;
+        margin-top: 150px;
+        display: block;
+    }
+    .cutfood_con_head{
+      margin-left: 100px;
+    }
+    .inpute_main input{
+        width: 150px;
+        height: 40px;
+        
+    }
+    .cutfood_inpute{
+        margin-right: 100px;
+    }
+   
+    /* Cutput Part End */
+     }
+
+@media (min-width:576px) and (max-width:767px){
+    /* Header part start */
+    .header_con h1{
+        font-size: 60px;
+    }
+     /* Header part End */
+    
+
+   /* Cutput Part Start */
+   
+   .cutfood_content_img img{
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 150px;
+    display: none;
+   
+}
+.cut_food_con_main{
+    margin-right: 100px;
+}
+.cutfood_con_head{
+  margin-left: 0px;
+}
+.inpute_main input{
+    width: 130px;
+    height: 30px;
+    
+}
+.cutfood_inpute{
+    margin-left: 30px;
+}
+
+/* Cutput Part End */
+}
+@media (min-width:320px) and (max-width:575px){
+    /* Header part start */
+    .header_con h1{
+        font-size: 50px;
+    }
+    .header_button :nth-child(2){
+       margin-top: 10px;
+        
+    }
+     /* Header part End */
+     /* service_part start */
+     .service_con_img img{
+        width: 300px;
+     }
+     /* service_part End */
+     /* vegetable part start */
+    .vegetable_icon img{
+        width: 100px;
+    }
+     /* vegetable part End */
+       /* Cutput Part Start */
+   
+   .cutfood_content_img img{
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 150px;
+    display: none;
+   
+}
+.cut_food_con_main{
+    margin-right: 100px;
+}
+.cutfood_con_head{
+  margin-left: 0px;
+}
+.inpute_main input{
+    width: 110px;
+    height: 30px;
+    
+}
+.cutfood_inpute{
+    margin-left: 30px;
+}
+
+/* Cutput Part End */
+    
+}
+
+@media (min-width:150px) and (max-width:319px){
+     /* Header part start */
+    .header_con h1{
+        font-size: 40px;
+    }
+    .header_button :nth-child(2){
+        margin-top: 10px;
+         
+     }
+      /* Header part End */
+         /* service_part start */
+     .service_con_img img{
+        width: 300px;
+     }
+     /* service_part End */
+      /* vegetable part start */
+    .vegetable_icon img{
+        width: 80px;
+    }
+     /* vegetable part End */
+}
+
